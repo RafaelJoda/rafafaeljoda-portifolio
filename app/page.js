@@ -1,5 +1,5 @@
 import Header from "./components/header";
-import Hero from "./Hero";
+import Hero from "./hero";
 import About from "./about"; 
 import Projects from "./projects";
 import Experience from "./experiencias";
