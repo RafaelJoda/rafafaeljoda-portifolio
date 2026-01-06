@@ -1,18 +1,15 @@
 import "./globals.css";
-import { ThemeProvider } from "./components/ThemeProvider";
 
 export const metadata = {
   title: "Rafael.dev",
-  description: "Portfolio do Rafael"
+  description: "Portfólio Front-end",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
       <body>
-        <ThemeProvider>
-          {children}
-        </ThemeProvider>
+        {children}
       </body>
     </html>
   );

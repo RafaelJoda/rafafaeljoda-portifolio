@@ -5,9 +5,10 @@ export default function About() {
   return (
     <section
       id="about"
-      className="min-h-screen flex items-center justify-center px-6 py-20 bg-[#00000] text-white"
+      className="min-h-screen flex items-center justify-center px-6 py-20 bg-[#0B0B14] text-white"
     >
       <div className="max-w-5xl grid md:grid-cols-2 gap-12 items-center">
+        
         {/* Texto */}
         <motion.div
           initial={{ opacity: 0, x: -40 }}
@@ -15,23 +16,20 @@ export default function About() {
           transition={{ duration: 0.8 }}
           viewport={{ amount: 0.2, once: false }}
         >
-          <h2 className="text-4xl font-bold mb-6 text-cyan-400">Sobre Mim</h2>
+          <h2 className="text-4xl font-bold mb-6 text-cyan-400">
+            Sobre Mim
+          </h2>
 
           <p className="text-gray-300 leading-relaxed mb-4">
-            Sou Rafael, desenvolvedor front-end apaixonado por criar experiências
-            digitais modernas, fluidas e visualmente impactantes. Estou sempre em busca
-            de evoluir, aprender novas tecnologias e transformar ideias em projetos reais.
+            Sou Rafael, estudante de Engenharia de Software, apaixonado por tecnologia e pelo desenvolvimento de soluções digitais modernas, eficientes e bem estruturadas. Estou em constante evolução, sempre buscando aprender novas tecnologias e transformar ideias em projetos reais.
           </p>
 
           <p className="text-gray-300 leading-relaxed mb-4">
-            Tenho experiência com HTML, CSS, JavaScript e React, além de trabalhar com
-            animações usando Framer Motion e interfaces futuristas com estilos neon,
-            glassmorphism e efeitos interativos.
+            Tenho experiência com Python, C#, JavaScript, TypeScript, Node.js, HTML, CSS e React, além de sólidos conhecimentos em lógica de programação, organização de código e boas práticas de desenvolvimento de software.
           </p>
 
           <p className="text-gray-300 leading-relaxed">
-            Minha missão como dev é criar interfaces que não só funcionem, mas que também
-            inspirem, prendam a atenção e ofereçam uma experiência memorável.
+            Meu objetivo como futuro engenheiro de software é criar soluções que não apenas funcionem, mas que sejam escaláveis, bem planejadas e capazes de gerar impacto real por meio da tecnologia.
           </p>
         </motion.div>
 
@@ -51,6 +49,7 @@ export default function About() {
             />
           </div>
         </motion.div>
+
       </div>
     </section>
   );

@@ -12,23 +12,18 @@ transition={{ duration: 0.8 }}
 viewport={{ amount: 0.2, once: false }}
 className="text-4xl font-bold text-cyan-400 text-center mb-12"
 >
-Experiência
+Experiências
 </motion.h2>
 
 
 <div className="max-w-4xl mx-auto space-y-8">
 {[
+
 {
-role: "Front-End Developer",
-company: "Projetos Pessoais",
-time: "2023 - Presente",
-desc: "Desenvolvimento de interfaces modernas utilizando HTML, CSS, JavaScript e React/Next.js.",
-},
-{
-role: "Administração",
+role: "Jovem Aprendiz",
 company: "VendPerto",
-time: "2024 - Presente",
-desc: "Atuação na área administrativa com automação de processos e criação de planilhas avançadas.",
+time: "2025 - Presente",
+desc: "Atuação na área administrativa com automação de processos e criação de planilhas avançadas. ",
 },
 ].map((job, i) => (
 <motion.div

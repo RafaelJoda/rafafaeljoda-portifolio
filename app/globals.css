@@ -3,6 +3,10 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* SINCRONIZAÇÃO COM TEMA */
+  --background: var(--bg);
+  --foreground: var(--text);
 }
 
 @theme inline {
@@ -16,6 +20,10 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+
+    /* SINCRONIZAÇÃO COM TEMA */
+    --background: var(--bg);
+    --foreground: var(--text);
   }
 }
 
@@ -29,18 +37,20 @@ body {
 .dark {
   --bg: #0b0b14;
   --text: #ffffff;
+
+  /* SINCRONIZAÇÃO COM TEMA */
+  --background: var(--bg);
+  --foreground: var(--text);
 }
 
 /* Tema claro */
 .light {
   --bg: #f4f4f6;
   --text: #1a1a1a;
-}
 
-/* Tema roxo */
-.purple {
-  --bg: #14001f;
-  --text: #e7d7ff;
+  /* SINCRONIZAÇÃO COM TEMA */
+  --background: var(--bg);
+  --foreground: var(--text);
 }
 
 /* Aplica automaticamente */
@@ -50,46 +60,24 @@ body {
   transition: background 0.3s, color 0.3s;
 }
 
-/* Light theme */
-.light {
-  --bg: #ffffff;
-  --text: #111111;
-}
-
-/* Dark theme */
-.dark {
-  --bg: #000000;
-  --text: #ffffff;
-}
-
-/* Purple theme */
-.purple {
-  --bg: #1a002e;
-  --text: #e9d5ff;
-}
-
-body {
-  background: var(--bg);
-  color: var(--text);
-  transition: all 0.3s ease;
-}
-
 /* Tema padrão */
 :root {
   --bg: #0b0b14;
   --text: #ffffff;
+
+  /* SINCRONIZAÇÃO COM TEMA */
+  --background: var(--bg);
+  --foreground: var(--text);
 }
 
 /* Modo claro */
 .light {
   --bg: #ffffff;
   --text: #0b0b0b;
-}
 
-/* Roxo */
-.purple {
-  --bg: #1a0029;
-  --text: #e8d4ff;
+  /* SINCRONIZAÇÃO COM TEMA */
+  --background: var(--bg);
+  --foreground: var(--text);
 }
 
 /* Aplica */
@@ -98,4 +86,3 @@ body, html {
   color: var(--text);
   transition: background-color .3s, color .3s;
 }
-

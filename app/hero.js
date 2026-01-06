@@ -5,39 +5,42 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center text-center px-6 
-      bg-[#0B0B14] relative overflow-hidden"
+      className="relative min-h-screen flex items-center justify-center px-6 bg-[#0B0B14] overflow-hidden"
     >
-      {/* Background gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#0b0b14]/40 to-[#0b0b14] pointer-events-none"></div>
-
-      {/* Glow effects */}
-      <div className="absolute top-20 left-10 w-72 h-72 bg-cyan-500/20 blur-[130px] rounded-full animate-pulse"></div>
-      <div className="absolute bottom-20 right-10 w-72 h-72 bg-purple-600/20 blur-[130px] rounded-full animate-pulse"></div>
+      {/* Detalhe sutil de fundo */}
+      <div className="absolute top-32 left-1/2 -translate-x-1/2 w-[500px] h-[500px] 
+                      bg-cyan-500/10 blur-[180px] rounded-full" />
 
       <motion.div
-        initial={{ opacity: 0, y: 40 }}
+        initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
-        className="z-10 max-w-3xl"
+        transition={{ duration: 0.8, ease: "easeOut" }}
+        className="relative z-10 max-w-2xl text-center"
       >
-        <h1 className="text-5xl md:text-6xl font-bold text-white leading-tight drop-shadow-[0_0_8px_rgba(255,255,255,0.2)]">
+        {/* Título */}
+        <h1 className="text-5xl md:text-6xl font-bold text-white leading-tight">
           Olá, eu sou o{" "}
-          <span className="text-cyan-400 drop-shadow-[0_0_10px_rgba(34,211,238,0.6)]">
-            Rafael
-          </span>
+          <span className="text-cyan-400">Rafael</span>
         </h1>
 
-        <p className="mt-4 text-lg md:text-xl text-gray-300 tracking-wide drop-shadow-[0_0_6px_rgba(0,0,0,0.4)]">
-          Desenvolvedor Front-end focado em criar experiências futuristas e interfaces modernas.
+        {/* Subtítulo */}
+        <p className="mt-4 text-lg md:text-xl text-gray-400">
+          Estudante de Engenharia de Software, focado no desenvolvimento de soluções eficientes, escaláveis e bem estruturadas.
         </p>
 
+        {/* Linha decorativa */}
+        <div className="mt-10 flex justify-center">
+          <span className="w-24 h-[2px] bg-cyan-400/60 rounded-full"></span>
+        </div>
+
+        {/* CTA */}
         <motion.a
           href="#projects"
-          whileHover={{ scale: 1.1 }}
+          whileHover={{ scale: 1.06 }}
           whileTap={{ scale: 0.95 }}
-          className="inline-block mt-8 px-8 py-3 bg-cyan-500 text-black font-semibold rounded-xl shadow-lg 
-          hover:bg-cyan-400 transition-all"
+          className="inline-block mt-10 px-9 py-3 border border-cyan-400/60 
+                     text-cyan-300 rounded-xl font-medium
+                     hover:bg-cyan-400 hover:text-black transition-all"
         >
           Ver Projetos
         </motion.a>
