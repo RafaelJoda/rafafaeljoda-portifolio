@@ -8,7 +8,7 @@ const projects = [
       "Um site que apresenta os catálogos de filmes, com suas respectivas notas de avaliação, integradas a uma API.",
     tech: ["HTML", "CSS", "JS"],
     img: "/images/moviefiap.png",
-    link: "https://checkpoint-5-webdev-1espz-i0rw3eduh-rafaeljoda57-8094s-projects.vercel.app/",
+    link: "checkpoint-5-webdev-1espz.vercel.app",
   },
   {
     title: "Passa bola App",
@@ -22,7 +22,7 @@ const projects = [
     description: "A Greenpath é uma landing page voltada à sustentabilidade empresarial, destacando projetos ambientais e estratégias de economia verde.",
     tech: ["Tailwind", "React"],
     img: "/images/greenpatch.png",
-    link: "https://greenpath-60ia49vs2-rafaeljoda57-8094s-projects.vercel.app/",
+    link: "greenpath-rose.vercel.app",
   },
 
   {
@@ -31,7 +31,7 @@ const projects = [
       "O projeto consiste em uma aplicação web para consulta e filtragem de profissionais, com foco em usabilidade, organização visual e boas práticas de front-end.",
     tech: ["Tailwind", "React", "JS"],
     img: "/images/talent lab.png",
-    link: "https://gs-web-front-c1uyrn522-rafaeljoda57-8094s-projects.vercel.app/",
+    link: "gs-web-front-xi.vercel.app",
   },
 
   {
