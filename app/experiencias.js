@@ -22,7 +22,7 @@ export default function Experience() {
           {
             role: "Jovem Aprendiz",
             company: "VendPerto",
-            time: "2025 - Presente",
+            time: "Jan 2025 - Jun 2025",
             desc: "Atuação na área administrativa com automação de processos e criação de planilhas avançadas.",
           },
         ].map((job, i) => (
