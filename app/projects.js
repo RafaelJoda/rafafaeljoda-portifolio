@@ -42,6 +42,15 @@ const projects = [
     img: "/images/airbnbn.png",
     link: "https://rafaeljoda.github.io/CP---Airbnb/",
   },
+
+  {
+    title: "Agentops",
+    description:
+      "Uma aplicação moderna de monitoramento de tendências para comunidades do Reddit. Este projeto utiliza uma arquitetura baseada em Agentes para coletar, analisar e visualizar dados de engajamento em tempo real.",
+    tech: ["HTML", "CSS", "JS" , "Chart.js" , "Python" ],
+    img: "/images/agentops.png",
+    link: "https://reddit-agents.vercel.app/",
+  },
 ];
 
 export default function Projects() {
