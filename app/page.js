@@ -4,6 +4,7 @@ import About from "./about";
 import Projects from "./projects";
 import Experience from "./experiencias";
 import Contato from "./contato";
+import Certificates from "./certificates";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <About />
       <Projects />
+      <Certificates />
       <Experience />
       <Contato />
      
